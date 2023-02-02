@@ -1,0 +1,10 @@
+:root{
+    --cabecalho:#A67B56;
+    --texto-base: #40301C;
+    --fundo-claro: #F2D5BB;
+    --detalhes: #BF9D7E;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}

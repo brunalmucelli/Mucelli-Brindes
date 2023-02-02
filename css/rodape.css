@@ -1,0 +1,10 @@
+.rodape {
+    width: 100vw;
+    background-color:var(--cabecalho);
+    padding: 16px 0;
+    text-align: center;
+}
+
+.rodape__frase {
+    width: 300px;
+}

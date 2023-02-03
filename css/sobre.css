@@ -1,6 +1,30 @@
+.sobre{
+    background-color: var(--fundo-claro);
+    width: 100vw;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sobre__titulo{
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--texto-base);
-    margin: 0 0 0.5rem;
+}
+
+.sobre__texto{
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+.sobre__botao{
+    color: var(--branco);
+    background-color: var(--detalhes-escuros);
+    text-align: center;
+    width: 100%;
+    max-width: 310px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border-radius: 8px;
 }

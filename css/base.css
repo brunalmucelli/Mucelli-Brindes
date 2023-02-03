@@ -3,8 +3,16 @@
     --texto-base: #40301C;
     --fundo-claro: #F2D5BB;
     --detalhes: #BF9D7E;
+    --detalhes-escuros: #735438;
+    --branco: #FFFFFF;
 }
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.gradiente{
+    background: linear-gradient(var(--cabecalho), var(--branco));
+    width: 100vw;
+    padding-top:1em;
 }

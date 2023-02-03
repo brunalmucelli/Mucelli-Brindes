@@ -1,0 +1,19 @@
+.card{
+    background: var(--fundo-claro);
+    border: 1px solid var(--detalhes-escuros);
+    border-radius: 10px;
+    box-shadow: 0 2px 16px #7354389f;
+    width: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 2rem;
+}
+
+.mediaCard{
+    background: url("https://cf.shopee.com.br/file/62dccb3cc8b788d6dad0738cb372f296") center/cover;
+    height: 8rem;
+    width: 100%;
+}

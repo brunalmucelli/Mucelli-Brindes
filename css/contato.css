@@ -1,0 +1,30 @@
+.contato{
+    background-color: var(--fundo-claro);
+    idth: 100vw;
+    padding: 1rem 1rem;
+}
+
+.contato__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--texto-base);
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.contato__lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__item{
+    padding: 0 0.5rem 1rem;
+}
+
+.contato__item a{
+    display: inline-block;
+    height: 8%;
+}
+.contato__item img{
+    width: 7%;
+}
